@@ -2,6 +2,8 @@ package tools;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// define the anagram checking class
+
 public class AnagramChecker {
 	
 	 public static void main(String args[]) {
@@ -16,7 +18,7 @@ public class AnagramChecker {
 	    	System.out.println("they are not anagram");
 	    }
 	    }    
-
+// method that sort string values
 	public static String sort(String s) {
         char[] chars = s.toCharArray();
         Arrays.sort(chars);
